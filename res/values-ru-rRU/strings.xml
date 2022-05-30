@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NetHunter+</string>
+    <string name="app_nav_home_label">NetHunter+</string>
+    <string name="hometitle">Системная информация</string>
+    <string name="nethunter_current_interfaces">Сетевые подключения</string>
+    <string name="nethunter_external_ip">Внешний IP адрес</string>
+    <string name="nethunter_hid_detect">"HID подключения "</string>
+    <string name="nethunter_busybox_detect">Версия Busybox</string>
+    <string name="nethunter_kernelver_detect">Версия ядра</string>
+    <string name="nethunter_terminal_detect">Статус терминала</string>
+    <string name="nethunter_howtouse_cmd">Введите команду в это поле, она выполнится в окружении Android OS, а её вывод
+        покажется рядом с её названием.
+    </string>
+    <string name="nethunter_howtouse_delimiter">Укажите разделитель команд в это поле, по уполчанию \\n</string>
+    <string name="nethunter_howtouse_runoncreate">Если вы хотите, чтобы команда выполнялась при показе данного экрана,
+        включите этот параметр.
+    </string>
+    <string name="hid_powersploit_description">Полезная нагрузка Powersploit предоставляет вам выбор полезных нагрузок
+        HTTP/S с обратным счетчиком. URL-адрес для полезной нагрузки должен быть URL-адресом, доступным для
+        компьютера-жертвы, на который загружается большая полезная нагрузка.
+    </string>
+    <string name="hid_windows_cmd_description">"Полезная нагрузка Powersploit предоставляет вам выбор полезных нагрузок
+        HTTP/S с обратным счетчиком. URL-адрес для полезной нагрузки должен быть URL-адресом, доступным для
+        компьютера-жертвы, на который загружается большая полезная нагрузка.\n "
+    </string>
+    <string name="kali_services_description">Службы Kali Chroot можно запускать и останавливать с помощью кнопок
+        переключения, вы также можете ДОБАВЛЯТЬ, УДАЛЯТЬ, ПЕРЕМЕЩАТЬ, ИСКАТЬ, СОЗДАВАТЬ РЕЗЕРВНЫЕ КОПИИ, ВОССТАНАВЛИВАТЬ
+        и СБРАСЫВАТЬ свой собственный сервисный элемент, а также долго нажимать на метку элемента, чтобы ОТРЕДАКТИРОВАТЬ
+        элемент.
+    </string>
+    <string name="kaliservices_howto_startservice">Чтобы ЗАПУСТИТЬ службу в kali, внутри KaliChroot будет запущена
+        команда, которая выглядит следующим образом:\n\nbusybox chroot &lt;chroot_folder> /usr/bin/sudo &lt;command_to_start_service>\n\nСлужба
+        считается ЗАПУЩЕННОЙ, если возвращаемое значение равно 0, и наоборот.
+    </string>
+    <string name="kaliservices_howto_stopservice">Чтобы ОСТАНОВИТЬ службу в kali, внутри KaliChroot будет запущена
+        команда, которая выглядит следующим образом:\n\nbusybox chroot &lt;chroot_folder> /usr/bin/sudo &lt;command_to_stop_service>\n\nСлужба
+        считается ОСТАНОВЛЕННОЙ, если возвращаемое значение равно 0, и наоборот.
+    </string>
+    <string name="kaliservices_howto_checkservice">Чтобы проверить, работает ли служба в kali или нет, за ПРЕДЕЛАМИ
+        KaliChroot будет запущена команда, которая выглядит следующим образом:\n\nbusybox ps -o pid,comm | grep \'&lt;имя_сервиса>\'\n\nУслуга
+        считается выполненной, если возвращаемое значение равно 0, и наоборот.
+    </string>
+    <string name="nethunter_description">Добро пожаловать в Kali Linux NetHunter от Offensive Security! Это приложение
+        предназначено для упрощения выполнения атак и управления службами. Меню навигации содержит ссылки на полезные
+        команды, настройки, макросы и страницы конфигурации атаки. Большинство конфигураций работают \"из коробки\", но
+        некоторые могут потребовать минимальной настройки.
+    </string>
+    <string name="kaliservices_howto_runServiceOnBoot">Чтобы автоматически запустить службу после запуска Kali Chroot,
+        установите этот флажок.
+    </string>
+    <string name="custom_commands_description">Вы можете ДОБАВЛЯТЬ, УДАЛЯТЬ, ПЕРЕМЕЩАТЬ, ИСКАТЬ, СОЗДАВАТЬ РЕЗЕРВНЫЕ
+        КОПИИ, ВОССТАНАВЛИВАТЬ и СБРАСЫВАТЬ свой пользовательский командный элемент. Вы также можете долго нажимать на
+        метку элемента, чтобы ОТРЕДАКТИРОВАТЬ элемент.
+    </string>
+    <string name="drawertitleusbarmory">USB инструментарий</string>
+    <string name="usbarmory_hint1_imagemounter">"*Поместите ваши .img или .iso файлы в /sdcard/nh_files/diskimage/\n "</string>
+    <string name="usbarmory_current_usb_state">Текущее состояние USB:</string>
+    <string name="usbarmory_description">USB инструментарий в полном порядке</string>
+    <string name="usbarmory_header">Выбрать функцию USB</string>
+    <string name="usbarmory_enabledfunctions">Текущая функция USB:</string>
+    <string name="usbarmory_nofunctionsenabled">Для USB не назначено функций в данный момент</string>
+    <string name="usbarmory_imagemounter_header">Эмуляция хранилища</string>
+    <string name="usbarmory_imagemounter_description">"Эмуляция хранилища будет работать только в том случае, если\n
+        активна соответствующая USB функция\n \n "
+    </string>
+    <string name="usbarmory_networktethering_header">Эмуляция сетевой карты</string>
+    <string name="usbarmory_networktethering_description">"Эмуляция сетевой карты будет работать только в том случае,
+        если активны соответствующие USB функции\n \n "
+    </string>
+    <string name="badusb_label">Эмуляция интерфейсов управления</string>
+    <string name="badusb_description">"Эмуляция интерфейсов управления будет работать только в том случае, если
+        активны\n соответствующие USB функции. Данная функция позволяет получить контроль над десктопным устройством, к
+        которому\n вы подключили телефон с приложением Nethinter\n "
+    </string>
+    <string name="mana_hostapd">Конфигурационный файл hostapd, используемый Mana.</string>
+    <string name="mana_hostapd_wpe">"Файл конфигурации hostapd, используемый для атаки аутентификации 802.1x/EAP\n
+        (hostapd-wpe) Это не используется с Mana.\n "
+    </string>
+    <string name="mana_hostapd_wpe_certs">Сгенерировать сертификаты(только 1 раз)</string>
+    <string name="mana_dhcpd">Конфигурационный файл dhcpd, используемый Mana.</string>
+    <string name="mana_dnsspoof">Конфигурационный файл dnsspoof, используемый Mana.</string>
+    <string name="mana_nat_full">Сценарий Mana, который выполняет полный перехват NAT и SSL.</string>
+    <string name="mana_nat_simple">Сценарий Mana, который выполняет только полный NAT.</string>
+    <string name="mana_nat_simple_bdf">"Сценарий Mana, который выполняет полную маршрутизацию HTTP, NAT или BDFProxy на
+        порт 8080.\n "
+    </string>
+    <string name="bdfproxy_cfg">Файл конфигурации для BDFProxy.</string>
+    <string name="mana_bettercap_description">Перенаправляйте трафик на прокси bettercap с помощью инструментария Mana
+    </string>
+    <string name="hostapd_private_key">Приватный ключ</string>
+    <string name="select_language">Язык</string>
+    <string name="duckConvertAttack">Начать атаку</string>
+    <string name="duck_hunter_headline">"Скрипт DuckHunter может легко конвертировать скрипты USB Rubber Ducky в формат
+        NetHunter HID. "
+    </string>
+    <string name="payload_select">Пожалуйста, выберите</string>
+    <string name="source">Изменить место</string>
+    <string name="start_mitmf">Начать атаку-перехватчик</string>
+    <string name="stop_mitmf">Остановить атаку-перехватчик</string>
+    <string name="start_badusb">Начать USB атаку</string>
+    <string name="stop_badusb">Остановить USB атаку</string>
+    <string name="launch_kali_menu">Запустить меню Kali в терминале</string>
+    <string name="launch_kali_shell">Запустить консоль Kali в терминале</string>
+    <string name="launch_wifite">Запустить Wifite</string>
+    <string name="update_kali_chroot">Обновить подсистему Kali</string>
+    <string name="turn_off_external_wifi">Выключить внешний Wifi-адаптер</string>
+    <string name="kali_dumpmifare">Создать дамп Mifare</string>
+    <string name="update">Обновить</string>
+    <string name="load">Загрузить</string>
+    <string name="save">Сохранить</string>
+    <string name="execute_attack">Начать атаку</string>
+    <string name="stop_mana">Остановить инструментарий Mana</string>
+    <string name="start_mana">Запустить инструментарий Mana</string>
+    <string name="chanel">Канал связи</string>
+    <string name="enable_karma">Включить карму</string>
+    <string name="admin">Обход админ-панели</string>
+    <string name="choose_language">Раскладка клавиатуры</string>
+    <string name="reset_usb">Сбросить настройки USB</string>
+    <string name="iface">Интерфейс</string>
+    <string name="payload">Полезная нагрузка</string>
+    <string name="loading_service">Получение состояния сервисов</string>
+    <string name="get_external_ip">Получить внешний IP-адрес</string>
+    <string name="ps_ip_address">IP-адрес (LHOST)</string>
+    <string name="ps_port">Порт (LPORT)</string>
+    <string name="ps_payload_url">URL для полезной нагрузки</string>
+    <string name="toast_error_permissions">Приложение не пожет получить доступ к терминалу!</string>
+    <string name="toast_install_terminal">Ошибка запуска. Установите терминал!</string>
+    <string name="macchanger_description">** Важно: в Android 10 уже предусмотрена рандомизация MAC, но если вы все еще
+        хотите самостоятельно установить пользовательский mac-адрес, требуются следующие критерии:\n1. Включите опцию
+        \"Использовать рандомизированный MAC\" для каждого SSID, к которому вы подключаетесь.\n2. Точка доступа, к
+        которой вы хотите подключиться, должна быть предварительно подключена с правильным паролем.\nПри ручном
+        подключении к точке доступа измененный mac будет потерян.
+    </string>
+    <string name="interface_select">Выбрать интерфейс</string>
+    <string name="macchanger_select">Выбрать режим вмены MAC-адреса</string>
+    <string name="reset_mac">Сбросить MAC-адрес для wlan0</string>
+    <string name="currentmac">Текущий MAC-адрес:</string>
+    <string name="TwoMACDigits">XX</string>
+    <string name="macSeparator">:</string>
+    <string name="changeMAC">Изменить MAC-адрес</string>
+    <string name="resetMAC">Сбросить MAC-адрес</string>
+    <string name="reloadMAC">Обновить MAC-адрес</string>
+    <string name="randomMAC">Случайный MAC-адрес</string>
+    <string name="customMAC">Установить свой MAC-адрес</string>
+    <string name="autorunningscripts">Nethunter: запуск первых скриптов</string>
+    <string name="toastForNoBusybox">О, нет! Nethunter не может найти busybox!</string>
+    <string name="readonly">Только для чтения</string>
+    <string name="kex_description">Добро пожаловать на рабочий стол Kali NetHunter.\nВы можете запускать несколько
+        сеансов от имени разных пользователей, добавлять, сохранять и восстанавливать свои собственные пользовательские
+        разрешения, запускать KeX при загрузке и даже выводить KeX на HDMI.
+    </string>
+    <string name="bt_description">Экспериментальная версия Bluetooth Arsenal от yesimxev. Разведывайте, подделывайте,
+        прослушивайте или вводите аудио на различные устройства. Обратите внимание, что RFcomm должен быть включен в
+        вашем ядре для некоторых атак. Кроме того, некоторые устройства могут не поддерживать службу BT.
+    </string>
+    <string name="bt_carwhisperer">Сценарий Carwhisperer из the wayback. Слушайте или вводите аудио на различные
+        устройства, такие как динамики, гарнитуры, часы или даже автомобили. Обратите внимание, что цель должна быть
+        отключена от исходного источника. Прямая трансляция будет иметь некоторую задержку. Частота дискретизации должна
+        составлять 8 кГц, поскольку мы вводим ее в протокол SCO.
+    </string>
+    <string name="bt_spoof">Подделайте значения своих адаптеров BT.\nЭто играет важную роль в предстоящих атаках.
+    </string>
+    <string name="bt_tools">Перебирайте адреса BT, проверяйте подключения, и используйте другие возможности.</string>
+    <string name="set_description">Конструктор шаблонов электронной почты для инструментария социальной инженерии от
+        yesimxev. Пожалуйста, обратите внимание, что для использования этих шаблонов вам необходимо иметь рабочую
+        конфигурацию Gmail или email relay для SET. Рекомендуется не иметь изображения учетной записи, если вы
+        используете Gmail.
+    </string>
+    <string name="wps_description">OneShot выполняет атаку WPS PIN и Pixie Dust без необходимости переключаться в режим
+        монитора. Обратите внимание, что если поле scan пустое, вам может потребоваться перезагрузить свой интерфейс.
+    </string>
+    <string name="settings_description">Выберите желаемую загрузочную анимацию здесь. Пожалуйста, обратите внимание, что
+        некоторые старые телефоны предпочитают размер 90% от исходного разрешения экрана, поэтому он может работать
+        плавно. В этом случае установите флажок преобразовать, затем установите разрешение изображения и конечное
+        разрешение вместе.
+    </string>
+    <string name="mitmf_description">Написанный @byt3bl33d3r, MITMf направлен на обеспечение универсального решения для
+        атак типа \"Человек посередине\" и сетевых атак, одновременно обновляя и совершенствуя существующие атаки и
+        методы.
+    </string>
+    <string name="mitmf_javascriptkeylogger">Кейлоггер на JS</string>
+    <string name="mitmf_browserprofiler">Профилировщик браузера</string>
+    <string name="mitmf_beefautorun">Автозапуск BeEEF</string>
+    <string name="mitmf_smbauth">Вызов SMB-попытки авторизации ответа</string>
+    <string name="mitmf_upsidedown">Включить Upsidedowninternet</string>
+    <string name="mitmf_FERRETNG">Включить плагин записи файлов Coocie Ferret-NG</string>
+    <string name="mitmf_Responder_Description">Ответчик позволяет вам отравлять запросы LLMNR, NBT-NS и MDNS</string>
+    <string name="mitmf_Responder">Включить плагин Ответчика</string>
+    <string name="mitmf_Responder_Analyze">Включить аналитику</string>
+    <string name="mitmf_Responder_Wredir">Включить Wredir</string>
+    <string name="mitmf_Responder_NBTNS">Включить NBTNS</string>
+    <string name="mitmf_Responder_Fingerprint">Узел беометризации</string>
+    <string name="mitmf_Responder_LM">Принудительное понижение хэша LM</string>
+    <string name="mitmf_Responder_WPAD">WPAD Мошеннический прокси-сервер</string>
+</resources>

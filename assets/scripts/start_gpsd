@@ -1,0 +1,4 @@
+#!/system/bin/sh
+
+chroot /data/local/nhsystem/kali-armhf /bin/bash -c "gpsd -n udp://127.0.0.1:10110"
+
