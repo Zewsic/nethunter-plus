@@ -278,7 +278,6 @@
     <string name="mitmf_inject_HTML">HTML payload URL</string>
     <string name="mitmf_inject_HTMLPAY">HTML Payload to inject:</string>
     <string name="mitmf_inject_MATCH">Match String:</string>
-    <string name="mitmf_inject_PRESERVER">Preserve Cache</string>
     <string name="mitmf_inject_ONCE">Inject once per domain</string>
     <string name="mitmf_inject_RATELIMIT">Rate Limit (seconds)</string>
     <string name="mitmf_inject_COUNTLIMIT">Number of times to inject</string>
@@ -304,7 +303,13 @@
     <string name="existingchrootfound">An existing Kali chroot directory was found!</string>
     <string name="nokalichrootfound">No Kali chroot directory was found.</string>
     <string name="reallyremovechroot">Really remove the chroot?</string>
-    <string name="nogoingback">There\'s no going back.  You lose everything in your chroot.  Forever-ever.\n\nNOTE:  To fully ensure the chroot is not mounted and no processes are using it, <b><u>THE DEVICE WILL NOW BE REBOOTED</u></b>, then the chroot will be deleted.</string>
+    <string name="nogoingback">There\'s no going back. You lose everything in your chroot. Forever-ever. NOTE: To fully
+        ensure the chroot is not mounted and no processes are using it,
+        <b>
+            <u>THE DEVICE WILL NOW BE REBOOTED</u>
+        </b>
+        , then the chroot will be deleted.
+    </string>
     <string name="rebootbutton">Reboot and remove chroot</string>
     <string name="chickenoutbutton">Forget it</string>
     <string name="rebootingdialogtitle">Rebooting the device&#8230;</string>
@@ -339,21 +344,21 @@
     <string name="drawertitlemacchanger">MAC Changer</string>
     <string name="drawertitlevncmanager">KeX Manager</string>
     <string name="drawertitlehid">HID Attacks</string>
-    <string name="drawertitleduckhunter">DuckHunter HID</string>
+    <string name="drawertitleduckhunter" translatable="false">DuckHunter HID</string>
     <string name="drawertitlebadusb">Bad USB MITM Attack</string>
     <string name="drawertitlemana">Mana Wireless Toolkit</string>
     <string name="drawertitlewps">WPS Attacks</string>
     <string name="drawertitlebt">Bluetooth Arsenal</string>
-    <string name="drawertitlemitmf">MITM Framework</string>
+    <string name="drawertitlemitmf" translatable="false">MITM Framework</string>
     <string name="drawertitlenmap">Nmap Scan</string>
     <string name="drawertitlempc">Metasploit Payload Generator</string>
     <string name="drawertitlesearchsploit">SearchSploit</string>
-    <string name="drawertitlepineapple">Pineapple Connector</string>
-    <string name="drawertitlegps">Wardriving</string>
-    <string name="drawertitledeauth">DeAuth</string>
+    <string name="drawertitlepineapple" translatable="false">Pineapple Connector</string>
+    <string name="drawertitlegps" translatable="false">Wardriving</string>
+    <string name="drawertitledeauth" translatable="false">DeAuth</string>
     <string name="drawertitlesettings">Settings</string>
     <string name="drawertitleset">SET</string>
-    <string name="InstallAndUpdateButtonText"><![CDATA[Install & Update]]></string>
+    <string name="InstallAndUpdateButtonText" translatable="false"><![CDATA[Install & Update]]></string>
     <string name="metapackagesExplanation">Choose some \"metapackages\". The chroot will also be upgraded (via \"apt-get update/dist-upgrade\").\n\nSelecting metapackages you already have installed (or no packages at all) simply update/upgrades without removing anything.\n\nDepending on what metapackages you select, you may be asked to do stuff (such as set passwords for services), so pay attention.</string>
     <string name="metapackagesAdditionalInfo">Local storage requirements may be in the 20+ GB range. This installation/update will be performed in a terminal, so watch for issues. When completed, press the back button.</string>
     <string name="rootdialogmessage">Whoopsy daisy!  Nethunter requires elevated administrator (root) privileges.\n\nMake sure root access is available.\n\nIf you touched the deny button by error, go to SuperSU app, find NetHunter in the APPS tab, and allow access (grant).\n\nDepending on your version of Android, this may require a \"rooting\" procedure to install the <tt>su</tt> binary.\n\nOn LineageOS or LS-based Android, you may need to go to your device <b>Settings</b>, and under <b>Developer Options</b>, enable <b>Root access</b> for <b>Apps</b>.\n\nAdditionally, you will need to make sure <tt>busybox</tt> is installed, usually to <tt>/system/xbin/busybox</tt>.</string>
@@ -362,7 +367,10 @@
     <string name="rootdialognegbutton">Quit</string>
 
     <string name="legacychroottitle">Legacy chroot found!</string>
-    <string name="legacychrootmessage">You appear to already have an existing Kali chroot from an older version of Nethunter.\n\nMigrating it to its new location requires a reboot.\n\n Or, you can leave the old chroot alone and install a new chroot.  If you choose this option, make sure you have enough storage for both.</string>
+    <string name="legacychrootmessage">You appear to already have an existing Kali chroot from an older version of
+        Nethunter. Migrating it to its new location requires a reboot. Or, you can leave the old chroot alone and
+        install a new chroot. If you choose this option, make sure you have enough storage for both.
+    </string>
     <string name="legacychrootposbutton">Migrate (reboot)</string>
     <string name="legacychrootnegbutton">Ignore current</string>
 
@@ -431,7 +439,7 @@
     <string name="extract_chroot">Decompressing and deploying the Chroot… (~5–10 min)</string>
 
     <!-- Start NMAP -->
-    <string name="nmap_hint">scanme.nmap.org, 192.168.0.1; 10.0.0–255.1&#8211;254</string>
+    <string name="nmap_hint" translatable="false">scanme.nmap.org, 192.168.0.1; 10.0.0–255.1&#8211;254</string>
     <string-array name="nmap_interface_array">
         <item>Select interface</item>
         <item>wlan0</item>
@@ -482,16 +490,16 @@
     <string name="pineapple_cidr">Pineapple CIDR</string>
     <string name="pineapple_start_OTG">Setup Connection</string>
     <string name="pineapple_stop_OTG">Close Connection</string>
-    <string name="pineapple_noupstream">No upstream</string>
+    <string name="pineapple_noupstream" translatable="false">No upstream</string>
     <string name="pineapple_transproxy">Forward port 80/443 to 8080/8083</string>
-    <string name="pineapple_subnet">172.16.42.0/24</string>
-    <string name="pineapple_webport">1471</string>
-    <string name="pineapple_gatewayip">172.16.42.1</string>
-    <string name="pineapple_clientip">172.16.42.42/24</string>
+    <string name="pineapple_subnet" translatable="false">172.16.42.0/24</string>
+    <string name="pineapple_webport" translatable="false">1471</string>
+    <string name="pineapple_gatewayip" translatable="false">172.16.42.1</string>
+    <string name="pineapple_clientip" translatable="false">172.16.42.42/24</string>
     <!-- End PineappleFragment -->
 
     <!-- Start GPSFragment -->
-    <string name="switch_gps_provider">Android GPS Provider</string>
+    <string name="switch_gps_provider" translatable="false">Android GPS Provider</string>
     <string name="switch_gpsd">gpsd in chroot</string>
     <string name="gps_button_launch_app">Launch %s in NH Terminal</string>
     <string name="gps_description">Converts your GPS to NMEA then provides to Kali chroot.  Perfect for wardriving with Kismet or just a generic GPS server for Kali.</string>
@@ -513,10 +521,10 @@
     <string name="inject_settings">Inject Settings</string>
     <string name="gps_notification_lat">"Lat: "</string>
     <string name="gps_notification_long">"Long: "</string>
-    <string name="gps_notification_accuracy">"+/- "</string>
+    <string name="gps_notification_accuracy" translatable="false">"+/- "</string>
     <string name="gps_notification_source">"Source: "</string>
     <string name="gps_notification_age">"Age: "</string>
-    <string name="gps_notification_sats">"Sats: "</string>
+    <string name="gps_notification_sats" translatable="false">"Sats: "</string>
 
     <!-- End GPSFragment -->
 
@@ -539,4 +547,9 @@
 
     <!-- dummy_accessibility_service -->
     <string name="dummy_accessibility_service">dummy_accessibility_service</string>
+    <string name="mitmf_inject_PRESERVER">Preserve Cache</string>
+    <string name="hid_powersploit_description">"Полезная нагрузка Powersploit предоставляет вам выбор полезных нагрузок
+        HTTP-S с обратным счетчиком. URL-адрес для полезной нагрузки должен быть URL-адресом, доступным для
+        компьютера-жертвы, на который загружается большая полезная нагрузка. "
+    </string>
 </resources>
